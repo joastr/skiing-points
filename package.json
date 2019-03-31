@@ -1,0 +1,22 @@
+{
+  "name": "skiing-points",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha total.test.js",
+    "test1": "mocha distance.test.js",
+    "test2": "mocha style.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test",
+    "test1:watch": "mocha *.test.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.0.2"
+  },
+  "devDependencies": {
+    "onchange": "^5.2.0"
+  }
+}
